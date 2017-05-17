@@ -6,24 +6,34 @@
 
     <groupId>ru.marnikitta.sandbox</groupId>
     <artifactId>sandbox</artifactId>
-    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+
     <modules>
         <module>codewars</module>
         <module>distibuted</module>
         <module>internship</module>
+        <module>nio</module>
+        <module>parent</module>
     </modules>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+    <developers>
+        <developer>
+            <id>1</id>
+            <name>Marshalkin Nikita</name>
+            <email>marnikitta@gmail.com</email>
+            <organization>SPBSU</organization>
+            <roles>
+                <role>Architect</role>
+                <role>Developer</role>
+            </roles>
+            <timezone>+3</timezone>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git@bitbucket.org:Marnikitta/sandbox.git</connection>
+        <developerConnection>scm:git:git@bitbucket.org:Marnikitta/sandbox.git</developerConnection>
+        <url>https://bitbucket.org/Marnikitta/sandbox</url>
+    </scm>
 </project>
