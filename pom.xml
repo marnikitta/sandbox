@@ -32,8 +32,8 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:git@bitbucket.org:Marnikitta/sandbox.git</connection>
-        <developerConnection>scm:git:git@bitbucket.org:Marnikitta/sandbox.git</developerConnection>
-        <url>https://bitbucket.org/Marnikitta/sandbox</url>
+        <connection>scm:git:git@github.com:marnikitta/sandbox.git</connection>
+        <developerConnection>scm:git:git@github.org:marnikitta/sandbox.git</developerConnection>
+        <url>https://github.com/marnikitta/sandbox</url>
     </scm>
 </project>
